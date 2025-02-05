@@ -1,4 +1,7 @@
 import MenuList from "./menu-list";
+import menus from "./data";
+import "./styles.css";
+import { FaMinus } from "react-icons/fa";
 
 export default function TreeView({ menus = [] }) {
   return (
@@ -7,4 +10,3 @@ export default function TreeView({ menus = [] }) {
     </div>
   );
 }
-
